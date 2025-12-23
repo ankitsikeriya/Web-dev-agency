@@ -23,7 +23,7 @@ export default function WhatsAppChat() {
     }, [messages, isOpen]);
 
     const openWhatsApp = () => {
-        window.open('https://wa.me/919876543210', '_blank');
+        window.open('https://wa.me/917909503065', '_blank');
     };
 
     const handleSendMessage = async (e) => {

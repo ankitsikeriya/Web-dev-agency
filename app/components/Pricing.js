@@ -82,9 +82,9 @@ export default function Pricing() {
                             ))}
                         </ul>
 
-                        <button className="w-full py-4 bg-transparent border border-electric-blue text-electric-blue font-bold rounded-xl hover:bg-electric-blue hover:text-black transition-all duration-300 shadow-[0_0_15px_rgba(0,209,255,0.1)] hover:shadow-[0_0_25px_rgba(0,209,255,0.4)]">
+                        <a href="#contact" className="block w-full py-4 bg-transparent border border-electric-blue text-electric-blue font-bold rounded-xl hover:bg-electric-blue hover:text-black transition-all duration-300 shadow-[0_0_15px_rgba(0,209,255,0.1)] hover:shadow-[0_0_25px_rgba(0,209,255,0.4)] text-center">
                             BOOK FOR FREE NOW
-                        </button>
+                        </a>
                     </motion.div>
 
                     {/* Professional Package */}
@@ -111,9 +111,9 @@ export default function Pricing() {
                             ))}
                         </ul>
 
-                        <button className="w-full py-4 bg-neon-orange text-white font-bold rounded-xl hover:bg-orange-600 transition-all duration-300 shadow-[0_0_20px_rgba(255,138,0,0.3)] hover:shadow-[0_0_30px_rgba(255,138,0,0.5)]">
+                        <a href="#contact" className="block w-full py-4 bg-neon-orange text-white font-bold rounded-xl hover:bg-orange-600 transition-all duration-300 shadow-[0_0_20px_rgba(255,138,0,0.3)] hover:shadow-[0_0_30px_rgba(255,138,0,0.5)] text-center">
                             BOOK FOR FREE NOW
-                        </button>
+                        </a>
                     </motion.div>
                 </div>
             </div>
