@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight-blue: #0A0F1E;
+  --color-electric-blue: #00D1FF;
+  --color-neon-orange: #FF8A00;
+  --font-syne: var(--font-syne);
+  --font-inter: var(--font-inter);
+}
+
+:root {
+  --background: #0A0F1E;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+  cursor: none;
+  /* Hide default cursor for custom one */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-syne), sans-serif;
+}
+
+/* Circuit Background Animation */
+.circuit-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #0A0F1E;
+  background-image:
+    linear-gradient(rgba(0, 209, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 209, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.circuit-line {
+  position: absolute;
+  background: linear-gradient(90deg, transparent, #00D1FF, transparent);
+  height: 1px;
+  width: 200px;
+  opacity: 0;
+  animation: circuit-flow 4s infinite linear;
+}
+
+.circuit-line:nth-child(1) {
+  top: 20%;
+  left: -200px;
+  animation-delay: 0s;
+}
+
+.circuit-line:nth-child(2) {
+  top: 45%;
+  left: -200px;
+  animation-delay: 1.5s;
+}
+
+.circuit-line:nth-child(3) {
+  top: 70%;
+  left: -200px;
+  animation-delay: 3s;
+}
+
+.circuit-line:nth-child(4) {
+  top: 15%;
+  right: -200px;
+  animation-direction: reverse;
+  animation-delay: 0.5s;
+}
+
+.circuit-line:nth-child(5) {
+  top: 60%;
+  right: -200px;
+  animation-direction: reverse;
+  animation-delay: 2s;
+}
+
+@keyframes circuit-flow {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.5;
+  }
+
+  90% {
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(calc(100vw + 400px));
+    opacity: 0;
+  }
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(0, 209, 255, 0.5);
+}
+
+.glow-box {
+  box-shadow: 0 0 30px rgba(0, 209, 255, 0.1);
+}
