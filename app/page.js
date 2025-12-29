@@ -24,7 +24,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Pricing />
-      <Contact />
+      <Contact /> 
       <Testimonials />
       <WhatsAppChat />
       <Footer />
