@@ -26,7 +26,7 @@ export default function Hero() {
                             Our Code.
                         </span>
                     </h1>
-
+  
                     <p className="text-gray-400 text-xl md:text-2xl mb-10 max-w-2xl mx-auto font-light">
                         We craft high-end digital experiences that merge aesthetic brilliance with technical precision.
                     </p>
