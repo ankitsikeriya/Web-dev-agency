@@ -42,8 +42,8 @@ export default function Hero() {
 
                     <div className="w-full max-w-4xl grid md:grid-cols-2 gap-8 items-center mt-12 text-left">
                         <div>
-                            <h3 className="text-2xl font-bold text-white mb-4">Real-time Execution</h3>
-                            <p className="text-gray-400 mb-6">
+                            <h3 className="text-2xl font-bold text-white mb-4">Real-time Execution </h3>
+                            <p className="text-gray-400 mb-6"> 
                                 Watch your ideas come to life with our rapid development and deployment cycles. We build systems that are robust, scalable, and secure by default.
                             </p>
                             <ul className="space-y-2 text-sm text-gray-500 font-mono">
