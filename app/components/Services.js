@@ -24,7 +24,7 @@ export default function Services() {
             icon: <Search className="w-8 h-8 text-green-400" />,
             colSpan: "md:col-span-1",
             bg: "bg-white/5"
-        },
+        }, 
         {
             title: "Mobile Apps",
             description: "Native and cross-platform mobile applications.",
