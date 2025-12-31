@@ -40,7 +40,7 @@ export default function Services() {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
                         <span className="text-white">Our</span> <span className="text-electric-blue">Services</span>
-                    </h2>
+                    </h2> 
                     <p className="text-gray-400 max-w-2xl mx-auto">
                         Comprehensive digital solutions tailored to your business needs.
                     </p>
