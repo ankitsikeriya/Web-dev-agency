@@ -10,7 +10,7 @@ export default function Services() {
             icon: <Code className="w-8 h-8 text-electric-blue" />,
             colSpan: "md:col-span-2",
             bg: "bg-gradient-to-br from-white/5 to-white/0"
-        },
+        }, 
         {
             title: "UI/UX Design",
             description: "Intuitive interfaces that delight users.",
