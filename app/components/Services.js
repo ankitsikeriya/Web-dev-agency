@@ -29,7 +29,7 @@ export default function Services() {
             title: "Mobile Apps",
             description: "Native and cross-platform mobile applications.",
             icon: <Smartphone className="w-8 h-8 text-purple-400" />,
-            colSpan: "md:col-span-2",
+            colSpan: "md:col-span-2", 
             bg: "bg-gradient-to-bl from-white/5 to-white/0"
         },
     ];
