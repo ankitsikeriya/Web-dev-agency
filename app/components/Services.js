@@ -33,7 +33,7 @@ export default function Services() {
             bg: "bg-gradient-to-bl from-white/5 to-white/0"
         },
     ];
-
+ 
     return (
         <section id="services" className="py-20 px-4 relative">
             <div className="max-w-7xl mx-auto">
