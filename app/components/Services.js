@@ -23,7 +23,7 @@ export default function Services() {
             description: "Rank higher and drive organic traffic.",
             icon: <Search className="w-8 h-8 text-green-400" />,
             colSpan: "md:col-span-1",
-            bg: "bg-white/5"
+            bg: "bg-white/5" 
         }, 
         {
             title: "Mobile Apps",
