@@ -15,7 +15,7 @@ export default function Services() {
             title: "UI/UX Design",
             description: "Intuitive interfaces that delight users.",
             icon: <Palette className="w-8 h-8 text-neon-orange" />,
-            colSpan: "md:col-span-1",
+            colSpan: "md:col-span-1" ,
             bg: "bg-white/5"
         },
         {
