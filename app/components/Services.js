@@ -17,7 +17,7 @@ export default function Services() {
             icon: <Palette className="w-8 h-8 text-neon-orange" />,
             colSpan: "md:col-span-1" ,
             bg: "bg-white/5"
-        },
+        }, 
         {
             title: "SEO Optimization",
             description: "Rank higher and drive organic traffic.",
