@@ -11,7 +11,7 @@ export default function Hero() {
                 <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-electric-blue/10 rounded-full blur-[100px] animate-pulse"></div>
                 <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-neon-orange/10 rounded-full blur-[100px] animate-pulse delay-1000"></div>
             </div>
-
+ 
             <div className="relative z-10 text-center px-4 max-w-5xl mx-auto flex flex-col items-center">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
