@@ -17,7 +17,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="mb-12"
+                    className="mb-12" 
                 >
                     <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight">
                         <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">Your Vision,</span>
