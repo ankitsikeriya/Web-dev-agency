@@ -25,7 +25,7 @@ export default function Hero() {
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-neon-orange glow-text">
                             Our Code.
                         </span>
-                    </h1>
+                    </h1> 
   
                     <p className="text-gray-400 text-xl md:text-2xl mb-10 max-w-2xl mx-auto font-light">
                         We craft high-end digital experiences that merge aesthetic brilliance with technical precision.
