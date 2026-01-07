@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react';
 
 export default function Testimonials() {
     const testimonials = [
-        {
+        { 
             name: "Sarah Johnson",
             role: "CEO, TechStart",
             content: "DesignedByDudes transformed our online presence. Their attention to detail and modern design approach helped us increase conversions by 200%.",
