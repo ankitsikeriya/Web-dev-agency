@@ -33,7 +33,7 @@ export default function Testimonials() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-bold mb-4"
-                    >
+                    > 
                         <span className="text-white">Client</span> <span className="text-neon-orange">Testimonials</span>
                     </motion.h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
