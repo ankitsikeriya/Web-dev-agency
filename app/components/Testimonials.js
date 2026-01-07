@@ -40,7 +40,7 @@ export default function Testimonials() {
                         Don't just take our word for it. Here's what our clients have to say.
                     </p>
                 </div>
-
+ 
                 <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     {testimonials.map((testimonial, index) => (
                         <motion.div
