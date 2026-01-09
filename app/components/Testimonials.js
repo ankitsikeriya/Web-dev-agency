@@ -17,7 +17,7 @@ export default function Testimonials() {
             rating: 5
         },
         {
-            name: "Emily Davis",
+            name: "Emily Davis", 
             role: "Marketing Director, GrowthCo",
             content: "Stunning visuals and seamless performance. Our new website perfectly captures our brand identity.",
             rating: 5
