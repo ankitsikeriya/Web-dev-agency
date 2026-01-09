@@ -8,7 +8,7 @@ export default function Testimonials() {
             name: "Sarah Johnson",
             role: "CEO, TechStart",
             content: "DesignedByDudes transformed our online presence. Their attention to detail and modern design approach helped us increase conversions by 200%.",
-            rating: 5
+            rating: 5 
         },
         {
             name: "Michael Chen",
