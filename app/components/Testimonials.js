@@ -38,7 +38,7 @@ export default function Testimonials() {
                     </motion.h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
                         Don't just take our word for it. Here's what our clients have to say.
-                    </p>
+                    </p> 
                 </div>
  
                 <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
