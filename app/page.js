@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials";
 import WhatsAppChat from "./components/WhatsAppChat";
 
 export default function Home() {
-  return (
+  return ( 
     <main className="min-h-screen relative">
       <CustomCursor />
       <div className="circuit-bg">
