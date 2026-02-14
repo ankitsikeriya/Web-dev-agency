@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-
+ 
 const AGENCY_CONTEXT = `
 You are the AI assistant for "DesignedByDudes", a modern web agency.
 Your goal is to help visitors understand our services, pricing, and how to contact us.
