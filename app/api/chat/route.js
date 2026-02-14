@@ -58,7 +58,7 @@ CONTACT INFO:
 
 If asked about something not in this list, politely say you can't help with that specific request but can connect them with a human agent via the Contact form or WhatsApp.
 `;
-
+ 
 export async function POST(req) {
     try {
         const { message } = await req.json();
