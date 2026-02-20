@@ -89,7 +89,7 @@ export async function POST(req) {
             response = "We provide a **Free Domain Name** (.com, .in, or .co.in) with both of our packages.";
         }
 
-        // Simulate network delay for realism
+        // Simulate network delay for realism 
         await new Promise(resolve => setTimeout(resolve, 500));
 
         return NextResponse.json({ response });
