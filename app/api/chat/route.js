@@ -17,7 +17,7 @@ SERVICES:
 4. Mobile Apps: Native and cross-platform.
 
 PRICING PACKAGES:
-1. STARTER PACKAGE (Rs 4999):
+1. STARTER PACKAGE (Rs 4999): 
    - 5 Pages Website
    - Free Domain (.com/.in/.co.in)
    - Unlimited Images & Videos
