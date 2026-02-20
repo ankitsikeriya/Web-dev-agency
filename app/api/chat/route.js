@@ -68,7 +68,7 @@ export async function POST(req) {
         // if (apiKey) { ... }
 
         // 2. Fallback: Keyword matching system
-        const lowerMsg = message.toLowerCase();
+        const lowerMsg = message.toLowerCase(); 
         let response = "I'm not sure about that. Could you please be more specific? You can also contact our team directly via WhatsApp.";
 
         if (lowerMsg.includes('hello') || lowerMsg.includes('hi') || lowerMsg.includes('hey')) {
