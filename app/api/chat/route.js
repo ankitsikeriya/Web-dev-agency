@@ -81,7 +81,7 @@ export async function POST(req) {
             response = "You can reach us at:\n- **Phone**: +91 98765 43210\n- **Email**: hello@designedbydudes.com\n- **Location**: 123 Tech Park, Cyber City\n\nOr just click the WhatsApp button below!";
         } else if (lowerMsg.includes('website') || lowerMsg.includes('web')) {
             response = "We build high-performance websites using modern technologies like Next.js and React. Our websites are fast, secure, and SEO-friendly. Check out our pricing plans to get started!";
-        } else if (lowerMsg.includes('seo')) {
+        } else if (lowerMsg.includes('seo')) { 
             response = "Our SEO services help you rank higher on search engines. We include keyword optimization (25-60 keywords depending on the plan) to drive organic traffic to your site.";
         } else if (lowerMsg.includes('logo')) {
             response = "Yes! Both our Starter and Professional packages include a **Free Logo Design** for your brand.";
