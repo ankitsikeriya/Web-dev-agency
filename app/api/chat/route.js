@@ -66,7 +66,7 @@ export async function POST(req) {
         // 1. Try to use an LLM if API key is present (Placeholder for future integration)
         // const apiKey = process.env.OPENAI_API_KEY;
         // if (apiKey) { ... }
-
+  
         // 2. Fallback: Keyword matching system
         const lowerMsg = message.toLowerCase(); 
         let response = "I'm not sure about that. Could you please be more specific? You can also contact our team directly via WhatsApp.";
