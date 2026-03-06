@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
-import Services from "./components/Services";
+import Services from "./components/Services"; 
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import WhatsAppChat from "./components/WhatsAppChat";
