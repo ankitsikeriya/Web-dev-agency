@@ -20,7 +20,7 @@ export default function Home() {
         <div className="circuit-line"></div>
       </div>
 
-      <Navbar />
+      <Navbar /> 
       <Hero />
       <Services />
       <Pricing />
