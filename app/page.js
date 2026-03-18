@@ -17,7 +17,7 @@ export default function Home() {
         <div className="circuit-line"></div>
         <div className="circuit-line"></div>
         <div className="circuit-line"></div>
-        <div className="circuit-line"></div>
+        <div className="circuit-line"></div> 
       </div>
 
       <Navbar /> 
