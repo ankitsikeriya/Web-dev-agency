@@ -11,7 +11,7 @@ import WhatsAppChat from "./components/WhatsAppChat";
 export default function Home() {
   return (  
     <main className="min-h-screen relative">
-      <CustomCursor />
+      <CustomCursor /> 
       <div className="circuit-bg">
         <div className="circuit-line"></div>
         <div className="circuit-line"></div>
