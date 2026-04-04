@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials"; 
 import WhatsAppChat from "./components/WhatsAppChat";
 
-export default function Home() {
+export default function Home() { 
   return (  
     <main className="min-h-screen relative">
       <CustomCursor /> 
